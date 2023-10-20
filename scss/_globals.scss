@@ -1,0 +1,27 @@
+@use "variables" as var;
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    font-family: var.$ff-main;
+    font-size: var.$fs-400;
+    font-weight: var.$fw-400;
+    line-height: 1.2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ul {
+    list-style: none;
+    line-height: 2;
+}
+
